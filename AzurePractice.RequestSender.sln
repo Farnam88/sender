@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePractice.RequestSender", "AzurePractice.RequestSender\AzurePractice.RequestSender.csproj", "{94ACED28-9896-44CC-BAA1-74027F1AFAC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{188EC3BB-F8B4-44F9-BAEB-8DB5A6F58E71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-files", "solution-files", "{74D25A76-872E-4E8B-A277-2EFCF4E28A7E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94ACED28-9896-44CC-BAA1-74027F1AFAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ACED28-9896-44CC-BAA1-74027F1AFAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ACED28-9896-44CC-BAA1-74027F1AFAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ACED28-9896-44CC-BAA1-74027F1AFAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94ACED28-9896-44CC-BAA1-74027F1AFAC0} = {188EC3BB-F8B4-44F9-BAEB-8DB5A6F58E71}
+	EndGlobalSection
+EndGlobal
