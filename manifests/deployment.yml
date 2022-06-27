@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "farnamcluster-c783"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "farnamcluster-c783"
+  template:
+    metadata:
+      labels:
+        app: "farnamcluster-c783"
+    spec:
+      containers:
+        - name: "farnamcluster-c783"
+          image: "farnamacr.azurecr.io/farnamcluster"
+          ports:
+          - containerPort: 80
